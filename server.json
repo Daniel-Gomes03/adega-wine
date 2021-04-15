@@ -1,0 +1,67 @@
+{
+  "stock": [
+    {
+      "id": 1,
+      "amount": 3
+    },
+    {
+      "id": 2,
+      "amount": 5
+    },
+    {
+      "id": 3,
+      "amount": 2
+    },
+    {
+      "id": 4,
+      "amount": 1
+    },
+    {
+      "id": 5,
+      "amount": 5
+    },
+    {
+      "id": 6,
+      "amount": 10
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "LOS VASCOS CABERNET SAUVIGNON 2018",
+      "price": 89.0,
+      "image": "https://pnr.edega.com.br/storage/pnr/products/los-vascos-cabernet-sauvignon-2019_75.png"
+      
+    },
+    {
+      "id": 2,
+      "title": "DOMINIO DE FONTANA TEMPRANILLO-SYRAH 2017",
+      "price": 125.0,
+      "image": "https://pnr.edega.com.br/storage/pnr/products/dominio-de-fontana-tempranillo-syrah-2017_87.jpeg"
+    },
+    {
+      "id": 3,
+      "title": "LOS VASCOS CARMENERE GRANDE RESERVE 2018",
+      "price": 145.0,
+      "image": "https://pnr.edega.com.br/storage/pnr/products/los-vascos-carmenere-grande-reserve-2018_61.png"
+    },
+    {
+      "id": 5,
+      "title": "CUVÊE PAUL 2018",
+      "price": 150.0,
+      "image": "https://pnr.edega.com.br/storage/pnr/products/cuvee-paul-2018-53_56.jpeg"
+    },
+    {
+      "id": 6,
+      "title": "LA DONCELLA DE LAS VINAS TEMPRANILLO 2018",
+      "price": 170.0,
+      "image": "https://pnr.edega.com.br/storage/pnr/products/la-doncella-de-las_50.png"
+    },
+    {
+      "id": 4,
+      "title": "BLASON D’AUSSIÈRES 2017",
+      "price": 195.0,
+      "image": "https://pnr.edega.com.br/storage/pnr/products/blason-daussieres-2017_14.png"
+    }
+  ]
+}

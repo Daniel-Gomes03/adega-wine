@@ -1,25 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter } from 'react-router-dom';
+import { ToastContainer } from 'react-toastify';
 
-function App() {
+import GlobalStyles from './styles/global';
+import Header from './components/Header';
+import Routes from './routes';
+
+import { CartProvider } from './hooks/useCart';
+
+const App = (): JSX.Element => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <CartProvider>
+        <GlobalStyles />
+        <Header />
+        <Routes />
+        <ToastContainer autoClose={3000} />
+      </CartProvider>
+    </BrowserRouter>
   );
 }
 
