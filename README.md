@@ -1,6 +1,7 @@
 # Escola Conquer Challenge:
 
-This project is a SPA made using React. 
+This project is a SPA made using React.
+Users can add wines to the cart, change the desired quantity and remove the item from the cart.
 
 ## Installation and Setup Instructions 
 
