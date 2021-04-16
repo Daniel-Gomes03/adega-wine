@@ -1,6 +1,6 @@
 # Escola Conquer Challenge:
 
-This project is a SPA made using React, and a API using NodeJS with Express. 
+This project is a SPA made using React. 
 Users can create pizzas, view pizzas created by other users and search by name.
 
 ## Installation and Setup Instructions 
