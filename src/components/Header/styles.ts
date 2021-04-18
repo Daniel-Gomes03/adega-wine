@@ -11,8 +11,8 @@ export const Container = styled.header`
     transition: opacity 0.2s;
 
     img {
-      width: 185px;
-      height: 50px;
+      max-width: 185px;
+      max-height: 50px;
     }
 
     &:hover {
@@ -33,11 +33,18 @@ export const Cart = styled(Link)`
     strong {
       display: block;
       color: #191920;
-    }
 
+    }
+    
     span {
       font-size: 12px;
-      color: #999;
+      color: #333;
+    }
+
+    @media(max-width: 411px) {
+      strong, span {
+        display: none;
+      }
     }
   }
 `;

@@ -111,6 +111,15 @@ const Cart = (): JSX.Element => {
           ))}
         </tbody>
       </S.ProductTable>
+      
+      <footer>
+        <button type="button">Finalizar pedido</button>
+
+        <S.Total>
+          <span>TOTAL</span>
+          <strong>{total}</strong>
+        </S.Total>
+      </footer>
     </S.Container>
   );
 };
